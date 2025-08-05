@@ -1,0 +1,70 @@
+[
+  {
+    "id": "1",
+    "name": "Kwame Asante",
+    "university": "University of Ghana",
+    "course": "Computer Science",
+    "year": "Final Year",
+    "region": "Greater Accra",
+    "avatar": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
+    "bio": "Passionate about technology and helping students navigate their university journey. I've interned at top tech companies and founded a student coding club.",
+    "specialties": ["Technology careers", "Internship opportunities", "Student life at UG"],
+    "contact": {
+      "email": "kwame.asante@student.ug.edu.gh",
+      "phone": "+233-24-123-4567"
+    },
+    "languages": ["English", "Twi"],
+    "availability": "Weekdays 6-8 PM, Weekends"
+  },
+  {
+    "id": "2",
+    "name": "Ama Osei",
+    "university": "Kwame Nkrumah University of Science and Technology",
+    "course": "Medicine",
+    "year": "4th Year",
+    "region": "Ashanti",
+    "avatar": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
+    "bio": "Medical student passionate about healthcare and community service. I volunteer at local clinics and mentor pre-med students.",
+    "specialties": ["Medical school preparation", "Healthcare careers", "Study strategies"],
+    "contact": {
+      "email": "ama.osei@student.knust.edu.gh",
+      "phone": "+233-24-234-5678"
+    },
+    "languages": ["English", "Twi", "Fante"],
+    "availability": "Evenings and weekends"
+  },
+  {
+    "id": "3",
+    "name": "Kofi Mensah",
+    "university": "Ashesi University",
+    "course": "Business Administration",
+    "year": "3rd Year",
+    "region": "Eastern",
+    "avatar": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
+    "bio": "Entrepreneur and business student with experience in startups and consulting. I help students understand business opportunities in Ghana.",
+    "specialties": ["Entrepreneurship", "Business careers", "Ashesi experience"],
+    "contact": {
+      "email": "kofi.mensah@ashesi.edu.gh",
+      "phone": "+233-24-345-6789"
+    },
+    "languages": ["English", "Ga", "Ewe"],
+    "availability": "Flexible schedule"
+  },
+  {
+    "id": "4",
+    "name": "Akosua Bonsu",
+    "university": "University of Cape Coast",
+    "course": "Education",
+    "year": "Final Year",
+    "region": "Central",
+    "avatar": "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
+    "bio": "Education major with a passion for teaching and student development. I've taught in rural schools and advocate for quality education.",
+    "specialties": ["Teaching careers", "Education policy", "Rural education"],
+    "contact": {
+      "email": "akosua.bonsu@student.ucc.edu.gh",
+      "phone": "+233-24-456-7890"
+    },
+    "languages": ["English", "Fante", "Twi"],
+    "availability": "Afternoons and evenings"
+  }
+]

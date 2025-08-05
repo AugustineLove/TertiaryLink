@@ -1,0 +1,137 @@
+[
+  {
+    "id": "1",
+    "name": "University of Ghana",
+    "shortName": "UG",
+    "logo": "https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop",
+    "location": "Legon, Accra",
+    "region": "Greater Accra",
+    "type": "Public",
+    "accreditation": "NAB Accredited",
+    "ranking": 1,
+    "establishedYear": 1948,
+    "studentPopulation": 40000,
+    "description": "Ghana's premier university, established in 1948, offering diverse undergraduate and graduate programs.",
+    "website": "https://ug.edu.gh",
+    "tuitionRange": {
+      "local": { "min": 2000, "max": 5000 },
+      "international": { "min": 8000, "max": 15000 }
+    },
+    "applicationDeadline": "2024-06-30",
+    "coursesOffered": ["Computer Science", "Medicine", "Business Administration", "Engineering", "Law"],
+    "facilities": ["Library", "Sports Complex", "Hostels", "Medical Center", "Research Labs"],
+    "badges": ["Top-ranked", "Research-focused"],
+    "contactInfo": {
+      "phone": "+233-30-213-2100",
+      "email": "info@ug.edu.gh"
+    }
+  },
+  {
+    "id": "2",
+    "name": "Kwame Nkrumah University of Science and Technology",
+    "shortName": "KNUST",
+    "logo": "https://images.pexels.com/photos/1595391/pexels-photo-1595391.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop",
+    "location": "Kumasi",
+    "region": "Ashanti",
+    "type": "Public",
+    "accreditation": "NAB Accredited",
+    "ranking": 2,
+    "establishedYear": 1952,
+    "studentPopulation": 60000,
+    "description": "Leading science and technology university in West Africa with strong engineering and technical programs.",
+    "website": "https://knust.edu.gh",
+    "tuitionRange": {
+      "local": { "min": 1800, "max": 4500 },
+      "international": { "min": 7500, "max": 14000 }
+    },
+    "applicationDeadline": "2024-07-15",
+    "coursesOffered": ["Engineering", "Architecture", "Computer Science", "Medicine", "Pharmacy"],
+    "facilities": ["Engineering Workshops", "Medical School", "Library", "Sports Complex"],
+    "badges": ["STEM-focused", "Top Engineering"],
+    "contactInfo": {
+      "phone": "+233-32-206-0100",
+      "email": "info@knust.edu.gh"
+    }
+  },
+  {
+    "id": "3",
+    "name": "University of Ghana Medical School",
+    "shortName": "UGMS",
+    "logo": "https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop",
+    "location": "Korle-Bu, Accra",
+    "region": "Greater Accra",
+    "type": "Public",
+    "accreditation": "NAB Accredited",
+    "ranking": 3,
+    "establishedYear": 1963,
+    "studentPopulation": 3000,
+    "description": "Premier medical education institution training healthcare professionals for Ghana and West Africa.",
+    "website": "https://ugms.edu.gh",
+    "tuitionRange": {
+      "local": { "min": 3000, "max": 6000 },
+      "international": { "min": 12000, "max": 20000 }
+    },
+    "applicationDeadline": "2024-05-31",
+    "coursesOffered": ["Medicine", "Nursing", "Dentistry", "Pharmacy", "Public Health"],
+    "facilities": ["Teaching Hospital", "Medical Library", "Research Labs", "Simulation Center"],
+    "badges": ["Medical Excellence", "Research-focused"],
+    "contactInfo": {
+      "phone": "+233-30-266-8201",
+      "email": "info@ugms.edu.gh"
+    }
+  },
+  {
+    "id": "4",
+    "name": "Ashesi University",
+    "shortName": "Ashesi",
+    "logo": "https://images.pexels.com/photos/207692/pexels-photo-207692.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop",
+    "location": "Berekuso",
+    "region": "Eastern",
+    "type": "Private",
+    "accreditation": "NAB Accredited",
+    "ranking": 4,
+    "establishedYear": 2002,
+    "studentPopulation": 1200,
+    "description": "Liberal arts university focusing on leadership, entrepreneurship, and ethical citizenship.",
+    "website": "https://ashesi.edu.gh",
+    "tuitionRange": {
+      "local": { "min": 12000, "max": 15000 },
+      "international": { "min": 15000, "max": 18000 }
+    },
+    "applicationDeadline": "2024-04-30",
+    "coursesOffered": ["Computer Science", "Business Administration", "Engineering", "Liberal Arts"],
+    "facilities": ["Modern Campus", "Innovation Lab", "Library", "Sports Facilities"],
+    "badges": ["Innovation Hub", "Liberal Arts"],
+    "contactInfo": {
+      "phone": "+233-30-273-9739",
+      "email": "admissions@ashesi.edu.gh"
+    }
+  },
+  {
+    "id": "5",
+    "name": "University of Cape Coast",
+    "shortName": "UCC",
+    "logo": "https://images.pexels.com/photos/1454360/pexels-photo-1454360.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop",
+    "location": "Cape Coast",
+    "region": "Central",
+    "type": "Public",
+    "accreditation": "NAB Accredited",
+    "ranking": 5,
+    "establishedYear": 1962,
+    "studentPopulation": 45000,
+    "description": "Leading teacher education and liberal arts university with beautiful coastal campus.",
+    "website": "https://ucc.edu.gh",
+    "tuitionRange": {
+      "local": { "min": 1500, "max": 4000 },
+      "international": { "min": 6000, "max": 12000 }
+    },
+    "applicationDeadline": "2024-07-31",
+    "coursesOffered": ["Education", "Business", "Arts", "Sciences", "Health Sciences"],
+    "facilities": ["Teacher Training", "Library", "Beach Campus", "Research Centers"],
+    "badges": ["Teacher Education", "Coastal Campus"],
+    "contactInfo": {
+      "phone": "+233-33-213-2440",
+      "email": "info@ucc.edu.gh"
+    }
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1",
+    "name": "Computer Science",
+    "category": "STEM",
+    "field": "Technology",
+    "duration": "4 years",
+    "degree": "Bachelor of Science",
+    "description": "Comprehensive program covering programming, algorithms, software engineering, and emerging technologies.",
+    "requirements": {
+      "coreSubjects": ["Core Mathematics", "Integrated Science"],
+      "electives": ["Elective Mathematics", "Physics", "Chemistry"],
+      "minimumGrade": "C6",
+      "additionalRequirements": ["Good mathematical background"]
+    },
+    "careerProspects": ["Software Developer", "Data Scientist", "Cybersecurity Specialist", "Tech Entrepreneur"],
+    "universities": ["1", "2", "4"],
+    "averageSalary": "GHS 3,000 - 8,000/month"
+  },
+  {
+    "id": "2",
+    "name": "Medicine",
+    "category": "Health Sciences",
+    "field": "Medical",
+    "duration": "6 years",
+    "degree": "Doctor of Medicine",
+    "description": "Rigorous medical program training future doctors with clinical experience and research opportunities.",
+    "requirements": {
+      "coreSubjects": ["Core Mathematics", "Integrated Science"],
+      "electives": ["Chemistry", "Physics", "Biology"],
+      "minimumGrade": "B3",
+      "additionalRequirements": ["Excellent academic record", "Interview required"]
+    },
+    "careerProspects": ["Medical Doctor", "Specialist Physician", "Medical Researcher", "Public Health Officer"],
+    "universities": ["1", "3"],
+    "averageSalary": "GHS 5,000 - 15,000/month"
+  },
+  {
+    "id": "3",
+    "name": "Business Administration",
+    "category": "Business",
+    "field": "Management",
+    "duration": "4 years",
+    "degree": "Bachelor of Business Administration",
+    "description": "Comprehensive business program covering management, finance, marketing, and entrepreneurship.",
+    "requirements": {
+      "coreSubjects": ["Core Mathematics", "English Language"],
+      "electives": ["Economics", "Business Management", "Accounting"],
+      "minimumGrade": "C6",
+      "additionalRequirements": ["Good communication skills"]
+    },
+    "careerProspects": ["Business Manager", "Financial Analyst", "Marketing Manager", "Entrepreneur"],
+    "universities": ["1", "4", "5"],
+    "averageSalary": "GHS 2,500 - 7,000/month"
+  },
+  {
+    "id": "4",
+    "name": "Engineering",
+    "category": "STEM",
+    "field": "Engineering",
+    "duration": "4 years",
+    "degree": "Bachelor of Engineering",
+    "description": "Applied engineering program with specializations in civil, mechanical, electrical, and chemical engineering.",
+    "requirements": {
+      "coreSubjects": ["Core Mathematics", "Integrated Science"],
+      "electives": ["Elective Mathematics", "Physics", "Chemistry"],
+      "minimumGrade": "C6",
+      "additionalRequirements": ["Strong mathematical foundation"]
+    },
+    "careerProspects": ["Professional Engineer", "Project Manager", "Technical Consultant", "R&D Specialist"],
+    "universities": ["1", "2"],
+    "averageSalary": "GHS 3,500 - 9,000/month"
+  },
+  {
+    "id": "5",
+    "name": "Education",
+    "category": "Education",
+    "field": "Teaching",
+    "duration": "4 years",
+    "degree": "Bachelor of Education",
+    "description": "Teacher preparation program with subject specializations and practical teaching experience.",
+    "requirements": {
+      "coreSubjects": ["English Language", "Core Mathematics"],
+      "electives": ["Any three elective subjects"],
+      "minimumGrade": "C6",
+      "additionalRequirements": ["Teaching aptitude test"]
+    },
+    "careerProspects": ["Secondary School Teacher", "Educational Administrator", "Curriculum Developer", "Education Consultant"],
+    "universities": ["5", "1"],
+    "averageSalary": "GHS 1,800 - 4,500/month"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "1",
+    "title": "Complete Guide to WASSCE Results and University Admission",
+    "slug": "wassce-results-university-admission-guide",
+    "category": "Admissions",
+    "author": "Dr. Sarah Adjei",
+    "publishedDate": "2024-01-15",
+    "readingTime": "8 min read",
+    "excerpt": "Everything you need to know about interpreting your WASSCE results and using them for university applications in Ghana.",
+    "content": "Understanding your WASSCE results is crucial for successful university admission. This comprehensive guide covers grade interpretation, minimum requirements, and strategic application planning...",
+    "tags": ["WASSCE", "Admissions", "University", "Results"],
+    "featured": true,
+    "views": 2500
+  },
+  {
+    "id": "2",
+    "title": "Scholarship Opportunities for Ghanaian Students in 2024",
+    "slug": "scholarship-opportunities-ghanaian-students-2024",
+    "category": "Scholarships",
+    "author": "Emmanuel Nkrumah",
+    "publishedDate": "2024-01-20",
+    "readingTime": "6 min read",
+    "excerpt": "Discover local and international scholarship opportunities available to Ghanaian students pursuing tertiary education.",
+    "content": "From government scholarships to international opportunities, this guide outlines various funding sources for your education...",
+    "tags": ["Scholarships", "Funding", "Education", "International"],
+    "featured": true,
+    "views": 1800
+  },
+  {
+    "id": "3",
+    "title": "Choosing the Right Course: STEM vs Humanities vs Business",
+    "slug": "choosing-right-course-stem-humanities-business",
+    "category": "Career Guidance",
+    "author": "Prof. Akua Mensah",
+    "publishedDate": "2024-01-25",
+    "readingTime": "10 min read",
+    "excerpt": "A comprehensive comparison of major academic fields to help you make informed decisions about your tertiary education path.",
+    "content": "Making the right course choice is one of the most important decisions in your academic journey. This article explores different fields and their career prospects...",
+    "tags": ["Career Guidance", "STEM", "Humanities", "Business"],
+    "featured": false,
+    "views": 1200
+  },
+  {
+    "id": "4",
+    "title": "Student Life in Ghanaian Universities: What to Expect",
+    "slug": "student-life-ghanaian-universities-what-to-expect",
+    "category": "Student Life",
+    "author": "Yaw Osei",
+    "publishedDate": "2024-02-01",
+    "readingTime": "7 min read",
+    "excerpt": "Get insights into campus life, accommodation, social activities, and academic culture in Ghana's top universities.",
+    "content": "University life in Ghana offers diverse experiences from academic excellence to vibrant social scenes. Here's what you can expect...",
+    "tags": ["Student Life", "Campus", "Accommodation", "Social Activities"],
+    "featured": false,
+    "views": 950
+  }
+]
