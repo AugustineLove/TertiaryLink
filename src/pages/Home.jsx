@@ -2,9 +2,28 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Search, Users, BookOpen, Award, Star, ChevronRight } from 'lucide-react';
 import { useArticles } from '../hooks/useData';
+import { useState, useEffect } from 'react';
+
+
+const bgImages = [
+  "src/images/legon.jpg",
+  "src/images/KNUS.png",
+  "src/images/ucc.jpg",
+  'src/images/umat.jpeg',
+];
+
 
 const Home = () => {
   const { articles } = useArticles({ featured: true });
+   const [bgIndex, setBgIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setBgIndex((prevIndex) => (prevIndex + 1) % bgImages.length);
+    }, 7000);
+
+    return () => clearInterval(interval);
+  }, []);
 
   const features = [
     {
@@ -71,34 +90,45 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-blue-600 via-blue-700 to-blue-800 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-          <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-              Your Path to
-              <span className="block text-yellow-400">Tertiary Education</span>
-            </h1>
-            <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-3xl mx-auto leading-relaxed">
-              Connect with Ghana's top universities, explore courses, and get personalized guidance from current students to make the best choice for your future.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link
-                to="/universities"
-                className="bg-yellow-500 hover:bg-yellow-600 text-blue-900 px-8 py-4 rounded-lg font-semibold text-lg transition-colors inline-flex items-center justify-center"
-              >
-                Explore Universities
-                <ArrowRight className="ml-2 w-5 h-5" />
-              </Link>
-              <Link
-                to="/compare"
-                className="bg-transparent border-2 border-white hover:bg-white hover:text-blue-800 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors inline-flex items-center justify-center"
-              >
-                Compare Options
-              </Link>
-            </div>
+      <section
+      className="relative text-white py-20"
+      style={{
+        backgroundImage: `url(${bgImages[bgIndex]})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        transition: "background-image 2s ease-in-out",
+      }}
+    >
+      {/* Overlay for better text contrast */}
+      <div className="absolute inset-0 bg-black bg-opacity-70"></div>
+
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center">
+          <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+            Your Path to
+            <span className="block text-yellow-400">Tertiary Education</span>
+          </h1>
+          <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto leading-relaxed text-blue-100">
+            Connect with Ghana's top universities, explore courses, and get personalized guidance from current students to make the best choice for your future.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center relative z-10">
+            <Link
+              to="/universities"
+              className="bg-white hover:bg-yellow-600 text-blue-900 px-8 py-4 rounded-lg font-semibold text-lg transition-colors inline-flex items-center justify-center"
+            >
+              Explore Universities
+              <ArrowRight className="ml-2 w-5 h-5" />
+            </Link>
+            <Link
+              to="/compare"
+              className="bg-transparent border-2 border-white hover:bg-white hover:text-blue-800 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors inline-flex items-center justify-center"
+            >
+              Compare Options
+            </Link>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
       {/* Stats Section */}
       <section className="py-16 bg-white">
@@ -270,7 +300,7 @@ const Home = () => {
       )}
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
+      <section className="py-20 bg-gradient-to-r from-blue-700 to-blue-800 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Ready to Start Your Journey?
