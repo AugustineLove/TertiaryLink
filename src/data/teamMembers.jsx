@@ -1,0 +1,38 @@
+export const teamMembers = [
+  {
+    name: 'Augustine Love Stephens',
+    role: 'Founder & Lead Developer',
+    category: 'top',
+    image: 'https://placehold.co/300x300/10B981/FFFFFF?text=A.S.',
+    bio: 'Full-stack engineer and visionary behind Tertiary Link, focused on solving Ghana’s higher-ed challenges.',
+    linkedin: 'https://linkedin.com/in/love-stephens',
+    github: 'https://github.com/love-stephens',
+  },
+  {
+    name: 'Samuel Amankwaa',
+    role: 'Frontend Designer',
+    category: 'developers',
+    image: 'https://placehold.co/300x300/10B981/FFFFFF?text=K.B.',
+    bio: 'Specialized in clean UI/UX tailored to African students’ needs.',
+    linkedin: 'https://linkedin.com/in/kwame-boateng',
+    github: 'https://github.com/kwame-boateng',
+  },
+  {
+    name: 'Feriel Adjoa-Daniella Yawlui',
+    role: 'Research & Content Lead',
+    category: 'researchers',
+    image: 'https://placehold.co/300x300/10B981/FFFFFF?text=F.M.',
+    bio: 'Passionate about educational equity and user-centered research.',
+    linkedin: 'https://linkedin.com/in/angela-doe',
+    github: '',
+  },
+  {
+    name: 'Cyril Tagoe',
+    role: 'Research & Content Lead',
+    category: 'researchers',
+    image: 'https://placehold.co/300x300/F97316/FFFFFF?text=A.D.',
+    bio: 'Passionate about educational equity and user-centered research.',
+    linkedin: 'https://linkedin.com/in/angela-doe',
+    github: '',
+  },
+];
