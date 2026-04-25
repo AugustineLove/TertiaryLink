@@ -7,22 +7,22 @@
     "location": "Legon, Accra",
     "region": "Greater Accra",
     "type": "Public",
-    "accreditation": "NAB Accredited",
+    "accreditation": "GTEC Accredited",
     "ranking": 1,
     "establishedYear": 1948,
-    "studentPopulation": 40000,
-    "description": "Ghana's premier university, established in 1948, offering diverse undergraduate and graduate programs.",
+    "studentPopulation": 50000,
+    "description": "Ghana's premier and largest university, a center for world-class teaching and research across diverse disciplines.",
     "website": "https://ug.edu.gh",
     "tuitionRange": {
-      "local": { "min": 2000, "max": 5000 },
-      "international": { "min": 8000, "max": 15000 }
+      "local": { "min": 2500, "max": 7500 },
+      "international": { "min": 4500, "max": 12000 }
     },
-    "applicationDeadline": "2024-06-30",
-    "coursesOffered": ["Computer Science", "Medicine", "Business Administration", "Engineering", "Law"],
-    "facilities": ["Library", "Sports Complex", "Hostels", "Medical Center", "Research Labs"],
+    "applicationDeadline": "2026-06-30",
+    "coursesOffered": ["Computer Science", "Medicine", "Business Administration", "Law", "Political Science"],
+    "facilities": ["Balme Library", "Legon Sports Stadium", "University Hospital", "Noguchi Research Institute"],
     "badges": ["Top-ranked", "Research-focused"],
     "contactInfo": {
-      "phone": "+233-30-213-2100",
+      "phone": "+233-30-221-3820",
       "email": "info@ug.edu.gh"
     }
   },
@@ -34,50 +34,50 @@
     "location": "Kumasi",
     "region": "Ashanti",
     "type": "Public",
-    "accreditation": "NAB Accredited",
+    "accreditation": "GTEC Accredited",
     "ranking": 2,
     "establishedYear": 1952,
-    "studentPopulation": 60000,
-    "description": "Leading science and technology university in West Africa with strong engineering and technical programs.",
+    "studentPopulation": 85000,
+    "description": "The leading science and technology institution in Ghana, renowned for engineering and technical excellence.",
     "website": "https://knust.edu.gh",
     "tuitionRange": {
-      "local": { "min": 1800, "max": 4500 },
-      "international": { "min": 7500, "max": 14000 }
+      "local": { "min": 2200, "max": 6800 },
+      "international": { "min": 5000, "max": 14000 }
     },
-    "applicationDeadline": "2024-07-15",
-    "coursesOffered": ["Engineering", "Architecture", "Computer Science", "Medicine", "Pharmacy"],
-    "facilities": ["Engineering Workshops", "Medical School", "Library", "Sports Complex"],
+    "applicationDeadline": "2026-07-15",
+    "coursesOffered": ["Engineering", "Pharmacy", "Architecture", "Computer Science", "Optometry"],
+    "facilities": ["Engineering Workshops", "KNUST Hospital", "Tech Hub", "Central Library"],
     "badges": ["STEM-focused", "Top Engineering"],
     "contactInfo": {
-      "phone": "+233-32-206-0100",
-      "email": "info@knust.edu.gh"
+      "phone": "+233-32-206-0021",
+      "email": "registrar@knust.edu.gh"
     }
   },
   {
     "id": "3",
-    "name": "University of Ghana Medical School",
-    "shortName": "UGMS",
-    "logo": "https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop",
-    "location": "Korle-Bu, Accra",
-    "region": "Greater Accra",
+    "name": "University of Cape Coast",
+    "shortName": "UCC",
+    "logo": "https://images.pexels.com/photos/1454360/pexels-photo-1454360.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop",
+    "location": "Cape Coast",
+    "region": "Central",
     "type": "Public",
-    "accreditation": "NAB Accredited",
+    "accreditation": "GTEC Accredited",
     "ranking": 3,
-    "establishedYear": 1963,
-    "studentPopulation": 3000,
-    "description": "Premier medical education institution training healthcare professionals for Ghana and West Africa.",
-    "website": "https://ugms.edu.gh",
+    "establishedYear": 1962,
+    "studentPopulation": 70000,
+    "description": "Global leader in education and research, particularly known for teacher training and social sciences.",
+    "website": "https://ucc.edu.gh",
     "tuitionRange": {
-      "local": { "min": 3000, "max": 6000 },
-      "international": { "min": 12000, "max": 20000 }
+      "local": { "min": 2000, "max": 5500 },
+      "international": { "min": 4000, "max": 10000 }
     },
-    "applicationDeadline": "2024-05-31",
-    "coursesOffered": ["Medicine", "Nursing", "Dentistry", "Pharmacy", "Public Health"],
-    "facilities": ["Teaching Hospital", "Medical Library", "Research Labs", "Simulation Center"],
-    "badges": ["Medical Excellence", "Research-focused"],
+    "applicationDeadline": "2026-07-31",
+    "coursesOffered": ["Education", "Nursing", "Biomedical Science", "Commerce", "Law"],
+    "facilities": ["Sam Jonah Library", "UCC Hospital", "Coastal Research Station"],
+    "badges": ["Teacher Education", "Excellence in Research"],
     "contactInfo": {
-      "phone": "+233-30-266-8201",
-      "email": "info@ugms.edu.gh"
+      "phone": "+233-33-213-2440",
+      "email": "registrar@ucc.edu.gh"
     }
   },
   {
@@ -88,50 +88,77 @@
     "location": "Berekuso",
     "region": "Eastern",
     "type": "Private",
-    "accreditation": "NAB Accredited",
+    "accreditation": "GTEC Accredited",
     "ranking": 4,
     "establishedYear": 2002,
-    "studentPopulation": 1200,
-    "description": "Liberal arts university focusing on leadership, entrepreneurship, and ethical citizenship.",
+    "studentPopulation": 1300,
+    "description": "A top-tier private liberal arts university focusing on ethical leadership and entrepreneurship.",
     "website": "https://ashesi.edu.gh",
     "tuitionRange": {
-      "local": { "min": 12000, "max": 15000 },
-      "international": { "min": 15000, "max": 18000 }
+      "local": { "min": 45000, "max": 55000 },
+      "international": { "min": 8500, "max": 10000 }
     },
-    "applicationDeadline": "2024-04-30",
-    "coursesOffered": ["Computer Science", "Business Administration", "Engineering", "Liberal Arts"],
-    "facilities": ["Modern Campus", "Innovation Lab", "Library", "Sports Facilities"],
+    "applicationDeadline": "2026-05-31",
+    "coursesOffered": ["Computer Science", "MIS", "Electrical Engineering", "Business Administration"],
+    "facilities": ["Innovation Lab", "Solar-powered Campus", "Modern Dormitories"],
     "badges": ["Innovation Hub", "Liberal Arts"],
     "contactInfo": {
-      "phone": "+233-30-273-9739",
+      "phone": "+233-30-261-0330",
       "email": "admissions@ashesi.edu.gh"
     }
   },
   {
     "id": "5",
-    "name": "University of Cape Coast",
-    "shortName": "UCC",
-    "logo": "https://images.pexels.com/photos/1454360/pexels-photo-1454360.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop",
-    "location": "Cape Coast",
+    "name": "University for Development Studies",
+    "shortName": "UDS",
+    "logo": "https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop",
+    "location": "Tamale",
+    "region": "Northern",
+    "type": "Public",
+    "accreditation": "GTEC Accredited",
+    "ranking": 5,
+    "establishedYear": 1992,
+    "studentPopulation": 30000,
+    "description": "A multi-campus institution emphasizing poverty reduction and community development through field-based learning.",
+    "website": "https://uds.edu.gh",
+    "tuitionRange": {
+      "local": { "min": 1800, "max": 6000 },
+      "international": { "min": 3500, "max": 9000 }
+    },
+    "applicationDeadline": "2026-08-30",
+    "coursesOffered": ["Medicine", "Development Studies", "Agriculture", "Nursing", "ICT"],
+    "facilities": ["Field Research Sites", "Medical School Lab", "UDS Digital Library"],
+    "badges": ["Community Engagement", "Practical Learning"],
+    "contactInfo": {
+      "phone": "+233-37-202-6633",
+      "email": "registrar@uds.edu.gh"
+    }
+  },
+  {
+    "id": "6",
+    "name": "University of Education, Winneba",
+    "shortName": "UEW",
+    "logo": "https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop",
+    "location": "Winneba",
     "region": "Central",
     "type": "Public",
-    "accreditation": "NAB Accredited",
-    "ranking": 5,
-    "establishedYear": 1962,
-    "studentPopulation": 45000,
-    "description": "Leading teacher education and liberal arts university with beautiful coastal campus.",
-    "website": "https://ucc.edu.gh",
+    "accreditation": "GTEC Accredited",
+    "ranking": 6,
+    "establishedYear": 1992,
+    "studentPopulation": 65000,
+    "description": "Ghana's primary institution for the training of professional educators and educational administrators.",
+    "website": "https://uew.edu.gh",
     "tuitionRange": {
-      "local": { "min": 1500, "max": 4000 },
-      "international": { "min": 6000, "max": 12000 }
+      "local": { "min": 1500, "max": 4500 },
+      "international": { "min": 3000, "max": 8000 }
     },
-    "applicationDeadline": "2024-07-31",
-    "coursesOffered": ["Education", "Business", "Arts", "Sciences", "Health Sciences"],
-    "facilities": ["Teacher Training", "Library", "Beach Campus", "Research Centers"],
-    "badges": ["Teacher Education", "Coastal Campus"],
+    "applicationDeadline": "2026-08-15",
+    "coursesOffered": ["Special Education", "Early Childhood Education", "Arts Education", "French"],
+    "facilities": ["Education Resource Center", "Counseling Unit", "ICT Services"],
+    "badges": ["Education Focus", "Large Enrollment"],
     "contactInfo": {
-      "phone": "+233-33-213-2440",
-      "email": "info@ucc.edu.gh"
+      "phone": "+233-33-232-2036",
+      "email": "info@uew.edu.gh"
     }
   }
-]
+] 
