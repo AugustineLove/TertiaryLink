@@ -6,10 +6,10 @@ import { useState, useEffect } from 'react';
 
 
 const bgImages = [
-  "src/images/legon.jpg",
-  "src/images/KNUS.png",
-  "src/images/ucc.jpg",
-  'src/images/umat.jpeg',
+  "/images/legon.jpg",
+  "/images/KNUS.png",
+  "/images/ucc.jpg",
+  '/images/umat.jpeg',
 ];
 
 
